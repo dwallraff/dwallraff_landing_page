@@ -1,0 +1,38 @@
+baseURL = "https://dwallraff.github.io/"
+# include content marked as draft
+buildDrafts = false
+# include content with publishdate in the future
+buildFuture = false
+# include content already expired
+buildExpired = false
+# enable this to make all relative URLs relative to content root. Note that this does not affect absolute URLs.
+relativeURLs = true
+disableRSS = true
+enableRobotsTXT = true
+editor = "nano"
+languageCode = "en"
+language = "en"
+theme = "vncnt-hugo"
+title = "Dave Wallraff"
+
+[blackfriday]
+extensions = ["hardLineBreak"]
+
+[permalinks]
+fixed = ":title/"
+posts = "posts/:slug/"
+
+[params]
+author = "Dave Wallraff"
+description = "Landing Page"
+bio = "Solutions Architect @ Pivotal \nThe Bearded Wallraff \n\nWartime Consigliere \nBreaker O' Things \nPuzzle solver \nUnhandled promise rejection"
+avatar = "img/avatar.jpg"
+favicon = "img/favicon.ico"
+
+	[params.contact]
+    email = "dwallraff@gmail.com"
+    linkedin = "davewallraff"
+    github = "dwallraff"
+    keybase = "dwallraff"
+    ssh = "ssh_public_keys.txt"
+    
