@@ -1,13 +1,21 @@
+# Set URL
 baseURL = "https://dwallraff.github.io/"
+
 # include content marked as draft
 buildDrafts = false
+
 # include content with publishdate in the future
 buildFuture = false
+
 # include content already expired
 buildExpired = false
+
 # enable this to make all relative URLs relative to content root. Note that this does not affect absolute URLs.
 relativeURLs = true
+
+# don't need it
 disableRSS = true
+
 enableRobotsTXT = true
 editor = "nano"
 languageCode = "en"
