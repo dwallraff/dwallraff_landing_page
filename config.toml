@@ -33,7 +33,7 @@ posts = "posts/:slug/"
 [params]
 author = "Dave Wallraff"
 description = "Landing Page"
-bio = "Solutions Architect @ Pivotal \nThe Bearded Wallraff \n\nWartime Consigliere \nBreaker O' Things \nPuzzle solver \nUnhandled promise rejection"
+bio = "Solutions Architect @ Pivotal \nThe Bearded Wallraff \nRebuilding delivery services, one geo at a time \n\nWartime Consigliere \nBreaker O' Things \nPuzzle solver \nUnhandled promise rejection"
 avatar = "img/avatar.jpg"
 favicon = "img/favicon.ico"
 
