@@ -33,15 +33,15 @@ posts = "posts/:slug/"
 [params]
 author = "Dave Wallraff"
 description = "Landing Page"
-bio = "Solutions Architect @ Pivotal \n\nRebuilding delivery services, one geo at a time \n ------- \n\nThe Bearded Wallraff \nWartime Consigliere \nBreaker O' Things \nPuzzle solver \nUnhandled promise rejection"
+bio = "SRE @ Kohl's\n\n ------- \n\nThe Bearded Wallraff \nWartime Consigliere \nBreaker O' Things \nPuzzle solver \nUnhandled promise rejection"
 avatar = "img/avatar.jpg"
 favicon = "img/favicon.ico"
 
 	[params.contact]
-    email = "dwallraff@gmail.com"
+    email = "dave.wallraff@gmail.com"
     pgp = "dwallraff"
     linkedin = "davewallraff"
     github = "dwallraff"
     keybase = "dwallraff"
-    ssh = "ssh_public_keys.txt"
+    ssh = "ssh_public_key.txt"
     
