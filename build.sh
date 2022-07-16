@@ -24,7 +24,7 @@ git commit -m "$msg"
 # Push source and build repos.
 
 echo "Pushing to GitHub..."
-git push origin master
+git push origin main
 
 # Come Back up to the Project Root
 cd .. || exit
